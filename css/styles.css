@@ -536,7 +536,7 @@ footer .web-logo {
   background: #4d5ae5;
   min-width: 165px;
   height: 40px;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   cursor: pointer;
   border: none;
 }
