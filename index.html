@@ -458,7 +458,99 @@
             </li>
           </ul>
         </div>
+
+        <div class="social-media-form">
+          <p class="social-parag">Subscribe</p>
+          <form class="subscribe-form" name="subscribe">
+            <label class="subscribe-form-field">
+              <input
+                class="subscribe-form-input"
+                type="email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="subscribe-form-btn" type="submit">
+              Subscribe
+              <svg class="subscribe-form-icon" width="24px" height="24px">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
+
+    <!-- modal window -->
+
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button class="modal-btn" type="button" aria-label="Modal close button">
+          <svg class="modal-btn-icon" width="8px" height="8px">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal-caption">
+          Leave your contacts and we will call you back
+        </p>
+        <div>
+          <form class="modal-form form" name="modal">
+            <label class="form-label" for="user_name">Name</label>
+            <div class="form-field">
+              <input
+                class="form-input"
+                type="text"
+                id="user_name"
+                name="user_name"
+              />
+              <svg class="form-icon" width="18px" height="18px">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+          </form>
+        </div>
+        <div>
+          <form class="modal-form form" name="modal">
+            <label class="form-label" for="user_name">Name</label>
+            <div class="form-field">
+              <input
+                class="form-input"
+                type="text"
+                id="user_name"
+                name="user_name"
+              />
+              <svg class="form-icon" width="18px" height="18px">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </form>
+        </div>
+        <div>
+          <form class="modal-form form" name="modal">
+            <label class="form-label" for="user_name">Name</label>
+            <div class="form-field">
+              <input
+                class="form-input"
+                type="text"
+                id="user_name"
+                name="user_name"
+              />
+              <svg class="form-icon" width="18px" height="18px">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </form>
+        </div>
+        <div>
+          <label for="user_coment"> Comment</label>
+          <textarea
+            class="form-message"
+            name="user_comment"
+            id="user_comment"
+            rows="7"
+            placeholder="Text input"
+          ></textarea>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
