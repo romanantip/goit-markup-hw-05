@@ -492,64 +492,62 @@
         <p class="modal-caption">
           Leave your contacts and we will call you back
         </p>
-        <div>
-          <form class="modal-form form" name="modal">
+
+        <form class="modal-form form" name="modal">
+          <div>
             <label class="form-label" for="user_name">Name</label>
             <div class="form-field">
               <input
                 class="form-input"
                 type="text"
                 id="user_name"
-                name="user_name"
+                name="name"
               />
-              <svg class="form-icon" width="18px" height="18px">
+              <svg class="form-icon" width="18px" height="24px">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
-          </form>
-        </div>
-        <div>
-          <form class="modal-form form" name="modal">
-            <label class="form-label" for="user_name">Name</label>
+          </div>
+
+          <div>
+            <label class="form-label" for="user_phone">Phone</label>
             <div class="form-field">
               <input
                 class="form-input"
-                type="text"
-                id="user_name"
-                name="user_name"
+                type="tel"
+                id="user_phone"
+                name="contact-tel"
               />
-              <svg class="form-icon" width="18px" height="18px">
+              <svg class="form-icon" width="18px" height="24px">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
-          </form>
-        </div>
-        <div>
-          <form class="modal-form form" name="modal">
-            <label class="form-label" for="user_name">Name</label>
+          </div>
+          <div>
+            <label class="form-label" for="user_mail">Email</label>
             <div class="form-field">
               <input
                 class="form-input"
                 type="text"
-                id="user_name"
-                name="user_name"
+                id="user_mail"
+                name="contact_mail"
               />
-              <svg class="form-icon" width="18px" height="18px">
+              <svg class="form-icon" width="18px" height="24px">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
-          </form>
-        </div>
-        <div>
-          <label for="user_coment"> Comment</label>
-          <textarea
-            class="form-message"
-            name="user_comment"
-            id="user_comment"
-            rows="7"
-            placeholder="Text input"
-          ></textarea>
-        </div>
+          </div>
+          <div>
+            <label for="description"> Comment</label>
+            <textarea
+              class="form-message"
+              name="text_coment"
+              id="description"
+              rows="7"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+        </form>
       </div>
     </div>
   </body>
