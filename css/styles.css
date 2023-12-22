@@ -501,6 +501,7 @@ footer .web-logo {
   color: #fff;
   margin-top: 16px;
   font-size: 16px;
+  margin-bottom: 16px;
 
   font-weight: 500;
   line-height: 1.5;
@@ -512,8 +513,14 @@ footer .web-logo {
   align-items: center;
   gap: 24px;
 }
+.subscribe-form-field {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+}
 .subscribe-form-btn {
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 16px;
   padding: 8px 24px;
@@ -527,6 +534,16 @@ footer .web-logo {
   letter-spacing: 0.04em;
   border-radius: 4px;
   background: #4d5ae5;
+  min-width: 165px;
+  height: 40px;
+  font-family: Roboto;
+  cursor: pointer;
+  border: none;
+}
+.subscribe-form-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 16px;
 }
 
 .subscribe-form-input {
