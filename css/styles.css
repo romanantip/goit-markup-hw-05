@@ -654,7 +654,7 @@ footer .web-logo {
 }
 
 .form-wrapper {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .form-label {
@@ -689,6 +689,7 @@ footer .web-logo {
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
+  fill: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-input:focus + .form-icon {
   fill: #4d5ae5;
@@ -703,8 +704,14 @@ footer .web-logo {
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   resize: none;
-  outline: transparent;
   font-family: Roboto;
+  height: 120px;
+  line-height: 1.17;
+  color: rgba(46, 47, 66, 0.4);
+  background-color: transparent;
+  outline: transparent;
+  padding: 8px 16px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-message::placeholder {
   color: rgba(46, 47, 66, 0.4);
