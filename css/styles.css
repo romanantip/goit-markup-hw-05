@@ -619,8 +619,20 @@ footer .web-logo {
   stroke-width: 1px;
   stroke: rgba(0, 0, 0, 0.1);
   border-radius: 50%;
+  background-color: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-btn-icon {
+
+.modal-btn:hover,
+:focus {
+  background-color: #404bbf;
+  border: none;
+}
+. .modal-btn-icon {
   fill: #2e2f42;
 }
 
