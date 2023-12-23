@@ -656,6 +656,9 @@ footer .web-logo {
 }
 
 .form-wrapper {
+  margin-bottom: 8px;
+}
+.form-wrapper-area {
   margin-bottom: 16px;
 }
 
