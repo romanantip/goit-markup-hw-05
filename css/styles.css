@@ -721,6 +721,10 @@ footer .web-logo {
 }
 
 /* custom checkbox */
+.agreement {
+  margin-bottom: 24px;
+}
+
 .form-agreement {
   display: block;
   margin-bottom: 24px;
