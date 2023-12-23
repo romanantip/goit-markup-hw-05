@@ -556,6 +556,8 @@ footer .web-logo {
   outline: transparent;
   background-color: transparent;
   color: #fff;
+  line-height: 2;
+  letter-spacing: 0.04em;
   padding: 8px 16px;
 }
 .subscribe-form-input::placeholder {
