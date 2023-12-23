@@ -604,7 +604,6 @@ footer .web-logo {
   background-color: #fcfcfc;
   padding: 24px;
   padding-top: 72px;
-  margin-bottom: 8px;
 }
 
 .modal-btn {
@@ -657,7 +656,7 @@ footer .web-logo {
 }
 
 .form-wrapper {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .form-label {
@@ -692,7 +691,7 @@ footer .web-logo {
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
-  fill: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-input:focus + .form-icon {
   fill: #4d5ae5;
