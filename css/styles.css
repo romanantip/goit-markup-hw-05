@@ -520,13 +520,10 @@ footer .web-logo {
   display: flex;
   justify-content: center;
   align-items: center;
-
   padding: 8px 24px;
   color: #fff;
   text-align: center;
-
   font-size: 16px;
-
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -537,6 +534,11 @@ footer .web-logo {
   font-family: 'Roboto', sans-serif;
   cursor: pointer;
   border: none;
+}
+.subscribe-form-btn:hover,
+.subscribe-form-btn:focus {
+  background-color: #404bbf;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscribe-form-icon {
@@ -627,15 +629,12 @@ footer .web-logo {
 }
 
 .modal-btn:hover,
-:focus {
+.modal-btn:focus {
   background-color: #404bbf;
   border: none;
-}
-
-.modal-btn:hover,
-:focus {
   fill: #ffffff;
 }
+
 .modal-btn-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
